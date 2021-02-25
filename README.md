@@ -1,10 +1,10 @@
-# rc24-tag
+# Riitag
 
-Tag generation for RC24
+An effort to re-write Riitag in python, so the RiiConnect24 VPS doesn't need to store a json file for every user.
 
 ## Usage
 
-Run `npm install` to install the dependencies, then run `npm start` to start the server or `npm test` to test srs/index.js syntax.
+Stay tuned
 
 ## Credits
 
