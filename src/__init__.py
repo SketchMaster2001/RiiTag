@@ -1,0 +1,1 @@
+from . import backgrounds, flags, coins, text
