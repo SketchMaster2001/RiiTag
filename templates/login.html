@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Riitag</title>
+        <link rel="stylesheet" href="/webpanel/common.css"/>
+    </head>
+    <body>
+        <b>SketchMaster2001 Riitag</b>
+        {% with messages = get_flashed_messages() %}
+            {% for message in messages %}
+                <p>
+                    <span class="warning">{{ message }}</span>
+                </p>
+            {% endfor %}
+        {% endwith %}
+        <form action="" method="post">
+            <p>
+                {{ form.hidden_tag() }}
+                {{ form.username.label }}
+                <br/>
+                {{ form.username(size=32) }}
+                <br/>
+                {{ form.password.label }}
+                <br/>
+                {{ form.password(size=32) }}
+            </p>
+            <p>{{ form.submit() }}</p>
+        </form>
+    </body>
+</html>
