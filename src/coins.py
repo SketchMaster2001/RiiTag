@@ -7,5 +7,5 @@ overlay = Image.open("assets/coins/animalcrossing.png")
 
 background.paste(overlay, (862, 10), overlay)
 
-background.save('assets/temp/bckflg.png')
+background.save('assets/temp/coins.png')
 
